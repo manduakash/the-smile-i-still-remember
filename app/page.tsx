@@ -96,7 +96,7 @@ export default function EternalLoveStory() {
         {/* Added glassmorphism and a soft pink glow shadow */}
         <motion.div initial="hidden" animate="visible" variants={fadeUp} className="relative z-10 p-10 md:p-16 rounded-[3rem] backdrop-blur-2xl bg-white/40 border border-white/70 shadow-[0_20px_60px_-15px_rgba(255,182,193,0.5)] max-w-4xl w-full">
           <motion.div variants={floatAnimation} initial="animate" animate="animate">
-            <span className="flex justify-center text-xl gap-1">S<Heart className="text-[#D67B88] mb-6 drop-shadow-[0_4px_10px_rgba(214,123,136,0.4)]" fill="#FFB6C1" size={24} /><span className="">A</span></span>
+            <span className="flex justify-center text-xl gap-1"><Heart className="text-[#D67B88] mb-6 drop-shadow-[0_4px_10px_rgba(214,123,136,0.4)]" fill="#FFB6C1" size={24} /><span className=""></span></span>
           </motion.div>
 
           {/* Gradient text for the name makes it pop beautifully */}
